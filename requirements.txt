@@ -1,0 +1,11 @@
+pygame==2.5.2
+pillow==10.0.1
+socket
+threading
+json
+time
+os
+sys
+subprocess
+psutil==5.9.5
+netifaces==0.11.0
