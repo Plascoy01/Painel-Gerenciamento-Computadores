@@ -1,0 +1,22 @@
+{
+  "servidor": {
+    "host": "0.0.0.0",
+    "porta": 5000,
+    "max_clientes": 100,
+    "timeout": 30
+  },
+  "cliente": {
+    "servidor_host": "192.168.1.100",
+    "servidor_porta": 5000,
+    "intervalo_sync": 10,
+    "timeout_reconexao": 5
+  },
+  "interface": {
+    "tema": "clam",
+    "atualizar_intervalo": 5
+  },
+  "seguranca": {
+    "usar_ssl": false,
+    "autenticacao": false
+  }
+}
